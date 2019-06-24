@@ -1,6 +1,8 @@
 # python 3.6.4
 # encoding: utf-8
 import numpy as np
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split
 from collections import Counter
 class KNNClassfier():
 
